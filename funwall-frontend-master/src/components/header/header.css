@@ -1,0 +1,31 @@
+header {
+  height: 10vh;
+  line-height: 10vh;
+  background-color: #7c0000;
+  position: relative;
+  color: #fff;
+  z-index: 999;
+}
+
+.logo img {
+  width: 150px;
+  margin-top: 25px;
+  margin-right: 208px;
+}
+
+header a {
+  color: #f5d520;
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+.language {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.language p {
+  margin: -35px; /* Removendo o espaçamento entre os parágrafos */
+  margin-left: 60px; /* Adicionando espaçamento entre "US" e "ER" */
+}
